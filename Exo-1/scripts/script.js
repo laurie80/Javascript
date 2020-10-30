@@ -1,4 +1,2 @@
-let message; 
-message = 'Hello!';
-
-alert(message); 
+let message = "Hello";
+alert (message);
