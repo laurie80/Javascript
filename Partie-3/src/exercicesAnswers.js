@@ -48,14 +48,12 @@ let removeSpaces = function (sentence) {
 
 //Exercice 9 : Afficher true si le paramètre d'entrée de la fonction est de type *string*.
 let isString = function (sentence) {
-  let response = sentence.includes(' ');
-  return response;
+  return typeof sentence == "string";
 }
 
 //Exercice 10 : Afficher l'extension du fichier.
 let displayExtension = function (fileName) {
-  let response = fileName.slice(-3);
-  return response;
+  return fileName.split('.').pop();
 }
 
 //Exercice 11 : Compter le nombre d'espace dans la chaîne.
@@ -78,7 +76,7 @@ let searchInSentence = function (sentence) {
 
 //Exercice 14 : Afficher la valeur absolue d'un nombre.
 let displayAbsoluteValue = function (number) {
-  let response = Math.abs(-12);
+  let response = Math.abs(number);
   return response;
 }
 
