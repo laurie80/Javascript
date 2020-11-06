@@ -7,15 +7,15 @@ name.onfocus = function() {
   }
   
   name.onblur = function() {
-    document.getElementById("name").style.border = '';;
+    document.getElementById("name").style.border = '';
   }
 
   mail.onfocus = function() {
-    document.getElementById("mail").style.border = "2px solid black";;
+    document.getElementById("mail").style.border = "2px solid black";
   }
   
   mail.onblur = function() {
-    document.getElementById("mail").style.border = '';;
+    document.getElementById("mail").style.border = '';
   }
 
   age.onfocus = function() {
