@@ -1,15 +1,3 @@
-// let container = document.getElementById("container");
-
-// let firstNumber = 6;
-// let secondNumber = 2;
-// let result = firstNumber*secondNumber;
-
-// while (result < 250) {
-// let result = document.createElement("span");
-// result.innerHTML = result;
-// container.appendChild(result);
-// }
-
 let container = document.getElementById("container");
 
 let firstNumber = 5;
@@ -25,5 +13,19 @@ while (total < 250) {
     total = firstNumber * secondNumber;
 }
 
+// "Correction Thomas"
 
+// let resultDiv = document.getElementById("resultDiv");
+
+// const firstNumber = 2;
+// let secondNumber = 2;
+
+
+// while ((firstNumber * secondNumber) <= 250) {
+
+//     let result = firstNumber * secondNumber;
+//     secondNumber = result;
+
+//     resultDiv.innerHTML += "<p>" + result + "</p>";
+// }
 
