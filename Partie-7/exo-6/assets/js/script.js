@@ -4,7 +4,9 @@
 //   `Bonjour, ${name} ! Comment vas-tu ?`;
 // }
 
-let name = function () {
-    return "Bonjour" + this.name + "! Comment vas-tu?";
+function alertName (name) {
+    return "Bonjour" + name + "! Comment vas-tu?";
 }
+
+console.log(alertName("Laurie"));
 
